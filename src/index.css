@@ -5,16 +5,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body {
-    /* background-color: #071952; */
-    background: var(--off-white, #FFFF);
-    font-family: 'Lexend Deca', sans-serif;
-    overflow-x: hidden;
+  /* background-color: #071952; */
+  background: var(--off-white, #FFFF);
+  font-family: 'Lexend Deca', sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 #home {
-    /* background-image: url(./asset/images/home/background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; */
-    height: 100vh;
+  height: 85vh;
+}
+
+#information-first {
+  height: 60vh;
+}
+
+@media only screen and (max-width: 1025px) {
+  #home {
+    height: 135vh;
+  }
+  #information-first  {
+    height: calc(100% - 50px);
+  }
+}
+@media only screen and (max-width: 750px) {
+  #home {
+    height: 145vh
+  }
+}
+@media only screen and (max-width: 550px) {
+  #home {
+    height: 150vh
+  }
+}
+@media only screen and (max-width: 450px) {
+  #home {
+    height: 120vh
+  }
+}
+@media only screen and (max-width: 380px) {
+  #home {
+    height: 160vh
+  }
 }
