@@ -13,8 +13,8 @@ const Navbar = () => {
                 <h1 className="text-xl md:text-3xl font-extrabold text-white">Na<span className="text-yellow-500">mora</span></h1>
                     <ul className="hidden md:flex gap-8">
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="information">Information</a></li>
+                        <li><a href="#information-first">About</a></li>
+                        <li><a href="#information-second">Information</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                     <div onClick={handleNav} className="block md:hidden">
@@ -23,10 +23,10 @@ const Navbar = () => {
                     <div className={!nav ? 'fixed left-[-100%] top-0 w-[50%] border-r-gray-50 h-full ease-in-out duration-500' : 'fixed md:hidden left-0 top-0 w-[50%] border-r-gray-50 h-full bg-young-purple ease-in-out duration-500 z-50'} >
                         <h1 className="w-full text-2xl font-extrabold mx-6 my-4">Na<span className="text-yellow-500">mora</span></h1>
                         <ul className="p-4 uppercase">
-                            <li className="p-2 border-b border-white">Home</li>
-                            <li className="p-2 border-b border-white">About</li>
-                            <li className="p-2 border-b border-white">Information</li>
-                            <li className="p-2">Contact</li>
+                            <li className="p-2 border-b border-white"><a href="#home">Home</a></li>
+                            <li className="p-2 border-b border-white"><a href="#information-first">About</a></li>
+                            <li className="p-2 border-b border-white"><a href="#information-second">Information</a></li>
+                            <li className="p-2"><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>
