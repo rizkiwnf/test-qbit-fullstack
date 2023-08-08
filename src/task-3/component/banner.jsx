@@ -4,9 +4,9 @@ import imgumkm from './../../asset/images/home/6922108.jpg'
 const Banner = () => {
     return (
         <div className="flex flex-col-reverse lg:flex-row max-w-[1440px] mx-auto pt-32 lg:pt-[10%] justify-around items-center">
-            <div className="text-dark-purple max-w-[563px] px-16 md:px-0 lg:pl-[130px]">
-                <h1 className="text-[42px] font-extrabold pb-[16px] leading-tight">Lorem ipsum dolor sit amet</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            <div className="text-dark-purple max-w-[563px] px-8 sm:px-16 md:px-0 lg:pl-[130px]">
+                <h1 className="text-[42px] font-extrabold pb-[16px] leading-tight">Yuk Kenalan Sama Na<span className="text-yellow-500">mora</span></h1>
+                <p>Namora merupakan salah satu produk UMKM yang berbahan dasar dari aneka sayuran dan buah-buahan pilihan yang berasal dari desa tajinan yang ada di daerah malang. Kemudian hasil ini diolah menjadi keripik yang memiliki aneka macam rasa</p>
                 <div className="flex flex-col md:flex-row gap-4 items-center">
                     <div className="flex relative mt-5 -z-10 w-full">
                         <div className="absolute right-5 top-3.5">

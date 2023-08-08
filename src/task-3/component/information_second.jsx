@@ -7,7 +7,7 @@ const InformationSecond = () => {
     return (
         <div className="mx-auto justify-center flex items-strech my-[6%]">
             <div className="container">
-                <h1 className="text-center text-3xl md:text-5xl xl:text-6xl font-extrabold text-dark-purple">Our Product</h1>
+                <h1 className="text-center text-3xl md:text-5xl xl:text-6xl font-extrabold text-dark-purple">Produk Na<span className="text-yellow-500">mora</span></h1>
                 {/* Image 1 */}
                 <div className="flex flex-col md:flex-row justify-between mx-4 xl:mx-[10%] items-center gap-7 xl:gap-10  mt-[7%]">
                     <div className="sm:w-[300px] lg:w-[365px] xl:w-[465px] bg-yellow-300 rounded-3xl -z-10">
@@ -15,9 +15,9 @@ const InformationSecond = () => {
                     </div>
                     <div className="md:mt-[5%] lg:mt-0 text-justify md:text-left">
                         <h2 className="mb-4 text-2xl font-bold text-dark-purple">
-                            Lorem consectetur adipisicing elit!
+                            Keripik Jagung
                         </h2>
-                        <p className="sm:w-[450px] md:w-[380px] lg:w-[565px]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores at ad illum dolores alias voluptatibus tenetur corrupti odio consectetur excepturi magnam nulla</p>
+                        <p className="sm:w-[450px] md:w-[380px] lg:w-[565px]">Na<span className="text-yellow-500">mora</span> memiliki bermacam-macam jenis keripik salah satunya adalah keripik jagung yang dibaluri rasa balado</p>
                         <div className="relative my-5 w-auto -z-10 ">
                             <button className="py-3 px-12 md:px-16 text-white bg-dark-purple rounded-full">Cek Details</button>
                             {/* <div className="absolute top-3 left-[42%] lg:left-[33%]">
@@ -35,9 +35,9 @@ const InformationSecond = () => {
                     </div>
                     <div className="md:mt-[5%] lg:mt-0 text-justify md:text-right">
                         <h2 className="mb-4 text-2xl font-bold text-dark-purple">
-                            Lorem consectetur adipisicing elit!
+                            Keripik Pisang Asin
                         </h2>
-                        <p className="sm:w-[450px] md:w-[420px] lg:w-[565px]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores at ad illum dolores alias voluptatibus tenetur corrupti odio consectetur excepturi magnam nulla</p>
+                        <p className="sm:w-[450px] md:w-[420px] lg:w-[565px]">Jika sebelumnya terbuat dari sayur, maka keripik ini terbuat dari pisang yang dibaluri oleh rasa asin, namun keripik pisang ini sama sekali tidak menggunakan msg, jadi dijamin sehatnya</p>
                         <div className="relative my-5 w-auto -z-10 ">
                             <button className="py-3 px-12 md:px-16 text-white bg-dark-purple  rounded-full">Cek Details</button>
                             {/* <div className="absolute top-3 right-[53%] sm:left-[42%] md:left-[90%] lg:right-[3%]">
@@ -55,9 +55,9 @@ const InformationSecond = () => {
                     </div>
                     <div className="md:mt-[5%] lg:mt-0 text-justify md:text-left">
                         <h2 className="mb-4 text-2xl font-bold text-dark-purple">
-                            Lorem consectetur adipisicing elit!
+                            Keripik Pisang Coklat
                         </h2>
-                        <p className="sm:w-[450px] md:w-[380px] lg:w-[565px]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores at ad illum dolores alias voluptatibus tenetur corrupti odio consectetur excepturi magnam nulla</p>
+                        <p className="sm:w-[450px] md:w-[380px] lg:w-[565px]">Jika sebelumnya terbuat dari keripik pisang memiliki rasa yang asin, maka keripik kali ini memiliki cita rasa manis. Dengan baluran coklat tentu keripik pisang ini merupakan keripik best seller</p>
                         <div className="relative my-5 w-auto -z-10 ">
                             <button className="py-3 px-12 md:px-16 text-white bg-dark-purple  rounded-full">Cek Details</button>
                             {/* <div className="absolute top-3 left-[42%] lg:left-[33%]">
