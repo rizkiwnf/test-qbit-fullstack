@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="fixed w-full bg-white">
             <div className="mx-4 z-2 py-5">
                 <div className="text-white items-center flex justify-between bg-dark-purple max-w-[1140px] mx-auto px-12 rounded-full h-16 gap-4">
-                    <h1 className="w-full text-2xl font-extrabold">REACT <span className="text-indigo-600	">.</span></h1>
+                <h1 className="text-3xl font-extrabold text-white">Na<span className="text-yellow-500">mora</span></h1>
                     <ul className="hidden md:flex gap-8">
                         <li>Home</li>
                         <li>About</li>
