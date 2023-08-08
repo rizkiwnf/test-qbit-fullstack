@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/test-qbit-fullstack/static/css/main.7d1e80f4.css",
-    "main.js": "/test-qbit-fullstack/static/js/main.06e785f2.js",
+    "main.css": "/test-qbit-fullstack/static/css/main.8c71bd8b.css",
+    "main.js": "/test-qbit-fullstack/static/js/main.21fb9f4c.js",
     "static/js/787.266f2acb.chunk.js": "/test-qbit-fullstack/static/js/787.266f2acb.chunk.js",
     "static/media/design3.png": "/test-qbit-fullstack/static/media/design3.e971633cd6b8e273a19f.png",
     "static/media/6922108.jpg": "/test-qbit-fullstack/static/media/6922108.95b607f5f3273e54247a.jpg",
@@ -11,12 +11,12 @@
     "static/media/hand.svg": "/test-qbit-fullstack/static/media/hand.9f84becec220f8738aec6d60110adca5.svg",
     "static/media/checklist.svg": "/test-qbit-fullstack/static/media/checklist.071576c07e9a7694aebfbd767fd668b3.svg",
     "index.html": "/test-qbit-fullstack/index.html",
-    "main.7d1e80f4.css.map": "/test-qbit-fullstack/static/css/main.7d1e80f4.css.map",
-    "main.06e785f2.js.map": "/test-qbit-fullstack/static/js/main.06e785f2.js.map",
+    "main.8c71bd8b.css.map": "/test-qbit-fullstack/static/css/main.8c71bd8b.css.map",
+    "main.21fb9f4c.js.map": "/test-qbit-fullstack/static/js/main.21fb9f4c.js.map",
     "787.266f2acb.chunk.js.map": "/test-qbit-fullstack/static/js/787.266f2acb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d1e80f4.css",
-    "static/js/main.06e785f2.js"
+    "static/css/main.8c71bd8b.css",
+    "static/js/main.21fb9f4c.js"
   ]
 }
