@@ -2,26 +2,16 @@ import React from "react";
 import Design1 from '../../asset/images/information/design1.jpg'
 import Design2 from '../../asset/images/information/design2.jpg'
 import Design3 from '../../asset/images/information/design3.png'
+import { clear } from "@testing-library/user-event/dist/clear";
 
 const InformationSecond = () => {
-    const boxes = document.querySelectorAll(".boxfirst");
-    const checkBoxes = () => {
-        const triggerBottom = (window.innerHeight/5) *4;
-        boxes.forEach((boxfirst) => {
-            const boxTop = boxfirst.getBoundingClientRect().top;
-            if(boxTop < triggerBottom) boxfirst.classList.add("show");
-            else boxfirst.classList.remove("show");
-        });
-    };
-    window.addEventListener("scroll", checkBoxes);
-    checkBoxes();
     return (
         <section id="information-second">
             <div id="information-second" className="mx-auto justify-center flex items-strech my-[6%] -z-10 relative">
                 <div className="container -z-99">
                     <h1 className="text-center text-3xl md:text-5xl xl:text-6xl font-extrabold text-dark-purple">Produk Na<span className="text-yellow-500">mora</span></h1>
                     {/* Image 1 */}
-                    <div className="boxfirst flex flex-col md:flex-row justify-between mx-4 xl:mx-[10%] items-center gap-7 xl:gap-10  mt-[7%]">
+                    <div className=" flex flex-col md:flex-row justify-between mx-4 xl:mx-[10%] items-center gap-7 xl:gap-10  mt-[7%]">
                         <div className="sm:w-[300px] lg:w-[365px] xl:w-[465px] bg-yellow-300 rounded-3xl -z-10">
                             <img src={Design1} alt="" className="rounded-3xl border-4 border-white" />
                         </div>
@@ -36,7 +26,7 @@ const InformationSecond = () => {
                         </div>
                     </div>
                     {/* Image 2 */}
-                    <div className="boxfirst flex flex-col md:flex-row-reverse justify-between mx-4 xl:mx-[10%] items-center gap-7 xl:gap-10  mt-[7%]">
+                    <div className=" flex flex-col md:flex-row-reverse justify-between mx-4 xl:mx-[10%] items-center gap-7 xl:gap-10  mt-[7%]">
                         <div className="sm:w-[300px] lg:w-[365px] xl:w-[465px] bg-yellow-300 rounded-3xl -z-10">
                             <img src={Design2} alt="" className="rounded-3xl border-4 border-white" />
                         </div>
@@ -51,7 +41,7 @@ const InformationSecond = () => {
                         </div>
                     </div>
                     {/* Image 3 */}
-                    <div className="boxfirst flex flex-col md:flex-row justify-between mx-4 xl:mx-[10%] items-center gap-7 xl:gap-10  mt-[7%]">
+                    <div className=" flex flex-col md:flex-row justify-between mx-4 xl:mx-[10%] items-center gap-7 xl:gap-10  mt-[7%]">
                         <div className="sm:w-[300px] lg:w-[365px] xl:w-[465px] bg-yellow-300 rounded-3xl -z-10">
                             <img src={Design3} alt="" className="rounded-3xl border-4 border-white" />
                         </div>
@@ -70,4 +60,5 @@ const InformationSecond = () => {
         </section>
     )
 }
+
 export default InformationSecond;

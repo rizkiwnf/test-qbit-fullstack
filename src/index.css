@@ -19,16 +19,6 @@ body {
 #information-first {
   height: 60vh;
 }
-.boxfirst{
-  transform: translateX(500%);
-  transition: transform 0.8s ease;
-}
-.boxfirst:nth-of-type(even){
-  transform: translateX(-500%);
-}
-.boxfirst.show{
-  transform: translateX(0);
-}
 
 @media only screen and (max-width: 1025px) {
   #home {
