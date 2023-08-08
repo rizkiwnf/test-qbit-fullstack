@@ -5,6 +5,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+open [https://rizkiwnf.github.io/test-qbit-fullstack/](https://rizkiwnf.github.io/test-qbit-fullstack/)
+
+## Available Scripts
+
+In the project directory, you can run:
 
 ### `npm start`
 
