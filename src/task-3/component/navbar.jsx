@@ -12,10 +12,10 @@ const Navbar = () => {
                 <div className="text-white items-center flex justify-between bg-dark-purple max-w-[1140px] mx-auto px-5 sm:px-12 rounded-full h-16 gap-4">
                 <h1 className="text-xl md:text-3xl font-extrabold text-white">Na<span className="text-yellow-500">mora</span></h1>
                     <ul className="hidden md:flex gap-8">
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Information</li>
-                        <li>Contact</li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="information">Information</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                     <div onClick={handleNav} className="block md:hidden">
                         {!nav ?  <CgMenuRight size={25} /> : <CgCloseO size={25} />}
